@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mentorkart (2hw)</title>
+  </head>
+  <body>
+    <!-- nav start -->
+    <section>
+      <h1 id="logo">SyedTechnical</h1>
+      <ul>
+        <li><a href="">features</a></li>
+        <li><a href="">docs</a></li>
+        <li><a href="">testimonials</a></li>
+        <li><a href="">blog</a></li>
+        <li><a href="">pricing</a></li>
+      </ul>
+      <i class="fa fa-bell bells"></i>
+
+      <button>Try for free <i class="fa fa-arrow-right" id="right"></i></button>
+    </section>
+
+    <!-- nav end -->
+    <br />
+    <div>
+      <h1 class="css">CSS Specificity Calculator</h1>
+      <p>Supports all of CSS Selectors level 4</p>
+    </div>
+    <!-- input start -->
+    <br />
+    <center>
+      <input
+        type="text"
+        name=""
+        id="input"
+        placeholder='Fill in a CSS selector, e.g. "header h1#sitetitle > .logo"'
+      />
+    </center>
+    <small
+      >Try some:
+      <span>
+        header h1#sitetitle > .logo, ul > li:is(.highlighted, .active),
+        header:where(#top) nav li:nth-child(2n + 1)
+      </span>
+    </small>
+    <!-- input end -->
+    <!-- specificity start -->
+    <div class="spacific">
+      <center>
+        <b>SPECIFICITY SCORE</b>
+        <h1>
+          <span id="zero">0 ,</span> <span id="one">1 ,</span>
+          <span id="two">2</span>
+        </h1>
+        <div class="ul">
+          <span class="uls">ul</span>
+          <span class="uls">li</span>
+          <span id="mains">:is(.highlighted, .active)</span>
+        </div>
+      </center>
+    </div>
+    <!-- specificity start end -->
+
+    <!-- psudo start -->
+    <div id="psudo">
+      <div class="margin">
+        <div id="main1s">
+          <h1 class="blueh1">0</h1>
+          <p>0 ids</p>
+        </div>
+      </div>
+
+      <!-- second -->
+      <div class="margin">
+        <div id="main1s">
+          <h1 class="blueh1" id="_1">1</h1>
+          <p>1 pseudo-class</p>
+          <span id="mains">:is(.highlighted, .active)</span>
+        </div>
+      </div>
+      <!-- third     -->
+      <div class="margin">
+        <div id="main1s">
+          <h1 class="blueh1" id="_2">2</h1>
+          <p>0 ids</p>
+          <span class="uls">ul</span>
+          <span class="uls">li</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- psudo start end -->
+    <div class="writing">
+      <h1>What is CSS selector specificity?</h1>
+      <p>
+        If an element is targeted by multiple selectors, browser use the
+        specificity of the selector to determine which styling to apply. Each
+        selector has a specificity that is determined by what you use in that
+        selector: elements, ID's, classes etc. This specificity is split up in
+        <br />
+
+        A single value in a higher level is more important than all levels below
+        it. For example, you can have a 1000 class names, and a selector with a
+        single ID would still be more specific.
+      </p>
+
+      <h1>Gotcha's when dealing with CSS selector specificity issues</h1>
+
+      <p>
+        ✔ The universal selector * has no specificity. properties with
+        !important are applied even if the selector is less specific. ✔ …Except
+        for the properties with !important in same or a higher specificity
+        selectors later in your CSS. …Except for the style="" attribute on an
+        element. ✔ If you use a pseudo class like :not() or :is(), the selector
+        inside it with the highest specificity determines the specificity. ✔
+        Anything in a :where() has no specificity. For :nth-child(),
+        :nth-last-child(), :host() and :host-context() pseudo-classes the
+        specificity is the combination of the pseudo-class itself (0,1,0) plus ✔
+        the most specific of the selectors in them. ✔ For the ::slotted()
+        pseudo-element the specificity is ✔ the combination of the
+        pseudo-element itself (0,0,1) plus the specificity of the selector
+        inside it. Child ✔ or sibling selectors (>, ~, +) add no specificity.
+      </p>
+
+      <h1>Build your next project with Polypane</h1>
+      <p>
+        ✔ Use all features on all plans <br />
+        ✔ On Mac, Window and Linux <br />
+        ✔ 14-day free trial – no credit card needed
+      </p>
+    </div>
+    <!-- final footer -->
+    <footer>
+      <table style="color: wheat">
+        <thead>
+          <tr>
+            <ul>
+              <li>Product</li>
+              <li>Docs</li>
+              <li>Integrations</li>
+              <li>Changelog</li>
+              <li>Download</li>
+              <li>Support</li>
+              <li>Pricing</li>
+            </ul>
+          </tr>
+        </thead>
+
+        <tbody style="color: black">
+          <tr>
+            <ul>
+              <li>Use cases</li>
+              <li>Responsive design</li>
+              <li>Accessibility</li>
+              <li>Site Quality</li>
+              <li>Alternatives</li>
+              <li>All free tools</li>
+              <li>Responsive design glossary</li>
+              <li>Create Polypane workspace</li>
+            </ul>
+          </tr>
+        </tbody>
+
+        <tbody style="color: black">
+          <tr>
+            <ul>
+              <li>cases</li>
+              <li>sponsive design</li>
+              <li>cessibility</li>
+              <li>ite Quality</li>
+              <li>ternatives</li>
+              <li>free tools</li>
+              <li>Responsive design glossary</li>
+              <li>Create Polypane workspace</li>
+            </ul>
+          </tr>
+        </tbody>
+      </table>
+      <center>
+        <p>
+          © Copyright 2023, All Rights Reserved |<span
+            style="color: red; text-decoration: underline"
+          >
+            Syed Technical
+          </span>
+        </p>
+      </center>
+    </footer>
+
+    <!-- footer end -->
+
+    <!-- external css link -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- external css link -->
+
+    <!-- font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </body>
+</html>
