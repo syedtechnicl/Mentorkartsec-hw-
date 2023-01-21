@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 section {
     display: flex;
     justify-content: space-around;
@@ -26,17 +25,16 @@ ul li {
     padding: 20px;
     font-size: 20px;
     text-transform: capitalize;
-
 }
 
 a {
     text-decoration: none;
-    color: #1E90FF;
+    color: #1e90ff;
 }
 
 .bells {
-    color: #1E90FF;
-    font-size: 30px !important
+    color: #1e90ff;
+    font-size: 30px !important;
 }
 
 button {
@@ -50,13 +48,25 @@ button {
 }
 
 #logo {
-    background: linear-gradient(135deg, #2c82ad, #2e83ac 9.99%, #3386a9 19.07%, #398ba5 27.44%, #41909f 35.26%, #489699 42.72%, #4f9c91 50%, #56a28a 57.28%, #5ba782 64.74%, #60ab7b 72.56%, #64af75 80.93%, #66b171 90.01%, #67b26f);
+    background: linear-gradient(135deg,
+            #2c82ad,
+            #2e83ac 9.99%,
+            #3386a9 19.07%,
+            #398ba5 27.44%,
+            #41909f 35.26%,
+            #489699 42.72%,
+            #4f9c91 50%,
+            #56a28a 57.28%,
+            #5ba782 64.74%,
+            #60ab7b 72.56%,
+            #64af75 80.93%,
+            #66b171 90.01%,
+            #67b26f);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 700;
     line-height: 70px;
     font-size: 34px;
-
 }
 
 .css {
@@ -64,7 +74,7 @@ button {
     justify-content: center;
     font-weight: 900;
     font-size: clamp(18px, 16px + 4vw, 48px);
-    letter-spacing: -.015em;
+    letter-spacing: -0.015em;
     line-height: 1.25;
     margin-bottom: 3rem;
     color: #0a1530;
@@ -97,8 +107,7 @@ small {
 
 span,
 b {
-    color: #1E90FF;
-
+    color: #1e90ff;
 }
 
 small {
@@ -119,16 +128,12 @@ small {
     color: green;
     margin: 23px;
     font-size: 80px;
-
-
 }
 
 #two {
     color: purple;
     margin: 23px;
     font-size: 80px;
-
-
 }
 
 .uls {
@@ -162,18 +167,16 @@ small {
 
 #mains1 {
     padding: 230px !important;
-    border: 12px solid red !important
+    border: 12px solid red !important;
 }
 
 #psudo {
     display: flex;
     justify-content: space-around;
     text-align: center;
-
 }
 
 .margin {
-
     padding: 50px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 10px;
@@ -192,7 +195,6 @@ p {
     background-color: purple;
 }
 
-
 .writing {
     padding: 200px;
     justify-content: justify;
@@ -201,9 +203,12 @@ p {
 }
 
 footer {
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 83, 121, 0.27503501400560226) 39%, rgba(4, 168, 139, 1) 100%, rgba(0, 117, 255, 1) 100%);
+    background: linear-gradient(90deg,
+            rgba(2, 0, 36, 1) 0%,
+            rgba(9, 83, 121, 0.27503501400560226) 39%,
+            rgba(4, 168, 139, 1) 100%,
+            rgba(0, 117, 255, 1) 100%);
     padding: 150px;
-
 }
 
 ul li:hover {
